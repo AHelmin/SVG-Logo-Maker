@@ -1,5 +1,22 @@
 {
   "dependencies": {
     "inquirer": "^8.2.4"
-  }
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "name": "svg-logo-maker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

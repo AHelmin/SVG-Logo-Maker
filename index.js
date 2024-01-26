@@ -1,4 +1,5 @@
 const inquirer = require("inquirer")
+const fs = require('fs')
 const Square = require("./lib/Square")
 const Circle = require("./lib/Circle")
 const Triangle = require("./lib/Triangle")
@@ -50,19 +51,20 @@ async function logoInformation() {
 function newCircle(newLogo) {
   const newCircle = new Circle(newLogo.shape, newLogo.shapeColor, newLogo.letterColor, newLogo.letters);
   const logo = newCircle.render();
-  writeToFile('Logo.SVG', logo);
+  console.log(logo)
+  writeToFile('Logo.svg', logo);
 };
 
 function newSquare(newLogo) {
   const newSquare = new Square(newLogo.shape, newLogo.shapeColor, newLogo.letterColor, newLogo.letters);
   const logo = newSquare.render();
-  writeToFile('Logo.SVG', logo);
+  writeToFile('Logo.svg', logo);
 };
 
 function newTriangle(newLogo) {
   const newTriangle = new Triangle(newLogo.shape, newLogo.shapeColor, newLogo.letterColor, newLogo.letters);
   const logo = newTriangle.render();
-  writeToFile('Logo.SVG', logo);
+  writeToFile('Logo.svg', logo);
 };
 
 //function writes SVG file
