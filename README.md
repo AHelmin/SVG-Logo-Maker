@@ -28,7 +28,7 @@ To test this application, make sure that the node package Jest is installed and 
 
 ![How To Run Test](./assets/images/SVG_logo_maker_test.png)
 
-The resulting SVG logo can be found in the main directory. Additionally, a video demonstration can be found at this link: https://drive.google.com/file/d/1BfmhebE9e_3_fVi7IJRnaCT241hS2CC-/view.
+The resulting SVG logo can be found in the main directory. Additionally, a video demonstration can be found at this link: https://drive.google.com/file/d/1sKXiFbUbXGCixwYeFRizXnsgF37igCCb/view.
 
 ## Credits
 
